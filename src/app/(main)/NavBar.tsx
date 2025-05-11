@@ -96,7 +96,7 @@ export function NavBar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
-        <Text>Pemilyy</Text>
+        <Text>pemilyy</Text>
       </div>
       <div className={styles.links}>
         {links.map(({ url, label }) => {
