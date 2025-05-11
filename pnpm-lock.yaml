@@ -20,9 +20,9 @@ importers:
       '@dicebear/core':
         specifier: ^9.2.1
         version: 9.2.2
-      '@fontsource/inter':
+      '@fontsource/urbanist':
         specifier: ^4.5.15
-        version: 4.5.15
+        version: 4.5.17
       '@hello-pangea/dnd':
         specifier: ^17.0.0
         version: 17.0.0(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -1481,8 +1481,8 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@fontsource/inter@4.5.15':
-    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
+  '@fontsource/urbanist@4.5.17':
+    resolution: {integrity: sha512-zE3a23W/l038Ty7btpUC4mKoD7d3c4CqOkX89agNC/nUGctjalA7FlWvnQAbzP65ZmWc20aBueGMeCQmfJQ+cA==}
 
   '@formatjs/cli@4.8.4':
     resolution: {integrity: sha512-zZI8QYVl5CHaT6j9OHjS+0mMnWzopBVH0un4n5b4IhIJRzIKnxwFTkxBp5Ifqj6FntrwzIGqP+D6v8u7MPYsmw==}
@@ -7907,7 +7907,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@fontsource/inter@4.5.15': {}
+  '@fontsource/urbanist@4.5.17': {}
 
   '@formatjs/cli@4.8.4(ts-jest@29.3.2(@babel/core@7.26.10)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.10))(esbuild@0.25.3)(jest@29.7.0(@types/node@22.15.3)(ts-node@10.9.2(@types/node@22.15.3)(typescript@5.8.3)))(typescript@5.8.3))':
     dependencies:

@@ -70,7 +70,7 @@
     "@date-fns/utc": "^1.2.0",
     "@dicebear/collection": "^9.2.1",
     "@dicebear/core": "^9.2.1",
-    "@fontsource/inter": "^4.5.15",
+    "@fontsource/urbanist": "^4.5.15",
     "@hello-pangea/dnd": "^17.0.0",
     "@prisma/client": "6.7.0",
     "@prisma/extension-read-replicas": "^0.4.1",

@@ -31,3 +31,16 @@
   flex: 1;
   justify-content: center;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.logoImage {
+  width: 62px;
+  height: 68px;
+  object-fit: contain;
+}

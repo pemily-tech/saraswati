@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import { Icon, Text } from 'react-basics';
+import { Text } from 'react-basics';
 import Link from 'next/link';
 import classNames from 'classnames';
 import HamburgerButton from '@/components/common/HamburgerButton';
@@ -8,7 +8,6 @@ import ThemeButton from '@/components/input/ThemeButton';
 import LanguageButton from '@/components/input/LanguageButton';
 import ProfileButton from '@/components/input/ProfileButton';
 import TeamsButton from '@/components/input/TeamsButton';
-import Icons from '@/components/icons';
 import { useMessages, useNavigation, useTeamUrl } from '@/components/hooks';
 import { getItem, setItem } from '@/lib/storage';
 import styles from './NavBar.module.css';
@@ -97,10 +96,7 @@ export function NavBar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
-        <Icon size="lg">
-          <Icons.Logo />
-        </Icon>
-        <Text>umami</Text>
+        <Text>Pemilyy</Text>
       </div>
       <div className={styles.links}>
         {links.map(({ url, label }) => {

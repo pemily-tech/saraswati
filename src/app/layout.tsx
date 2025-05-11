@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 import Providers from './Providers';
-import '@fontsource/inter/300.css';
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/500.css';
-import '@fontsource/inter/700.css';
+import '@fontsource/urbanist/300.css';
+import '@fontsource/urbanist/400.css';
+import '@fontsource/urbanist/500.css';
+import '@fontsource/urbanist/700.css';
 import 'react-basics/dist/styles.css';
 import '@/styles/index.css';
 import '@/styles/variables.css';
